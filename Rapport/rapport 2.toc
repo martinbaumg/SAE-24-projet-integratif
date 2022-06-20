@@ -2,7 +2,6 @@
 \contentsline {section}{\numberline {1}Réseau}{5}{section.1}%
 \contentsline {section}{\numberline {2}Téléphonie}{6}{section.2}%
 \contentsline {section}{\numberline {3}Collecte de données}{7}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Introduction}{7}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Récupération de données}{7}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}Configuration du script}{7}{subsubsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.1}Récupération de données}{7}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Configuration du script}{7}{subsubsection.3.1.1}%
 \contentsline {section}{\numberline {4}Web/Base de données}{8}{section.4}%

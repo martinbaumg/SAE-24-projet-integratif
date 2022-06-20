@@ -131,6 +131,40 @@ adressage pour les vlan (tous les vlan ont une ip) = 172.114.10.253
 
 \newpage
 \section{Collecte de données}
+\subsection{Introduction}
+Au courant de l'année nous avons pu voir différents mode de collecte de
+données, notamment la récupération via MQTT. D'abord, qu'est-ce que MQTT ?
+MQTT, pour "Message Queuing Telemetry Transport", est un protocole
+open source de messagerie qui assure des communications non permanentes
+entre des appareils par le transport de leurs messages.\\
+Le but de cette partie étant de récupérer des données. Nous devons réceptionner
+des valeures de température sur une pièce. Nous devons être capable de
+les afficher selon les critères définit, et les intégrer dans une base de
+données qui nous servira plus tard pour la partie Web. 
+	\subsection{Récupération de données}
+		\subsubsection{Configuration du script}
+		Pour pouvoir récupérer les données depuis le MQTT, j'ai donc dû
+		adapter le script python que nous a été donné dans le diaporama
+		et j'ai du l'adapter pour qu'il récupère les bonnes données.\\ 
+		J'ai modifié les lignes suivantes, en y ajoutant les bonnes valeurs
+		de connexion :
+		\begin{listing}[H]
+			\caption{Configuration des IDs de connexion}
+			\label{lst:id}
+			\begin{minted}{py}
+		broker = 'test.mosquitto.org'
+		topic = "IUT/Colmar/SAE24/Maison1"
+			\end{minted}
+		\end{listing}
+		Par la suite j'ai du installer un paquet qui était prérequis 
+		pour que le script puisse s'éxecuter correctement à savoir :
+		\begin{listing}[H]
+			\caption{Installation des paquets nécessaire au script MQTT}
+			\label{lst:paho}
+			\begin{minted}{bash}
+		pip3 install paho-mqtt python-etcd
+			\end{minted}
+		\end{listing}
 
 
 \newpage
