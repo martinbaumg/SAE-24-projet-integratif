@@ -1,6 +1,5 @@
 \babel@toc {french}{}\relax 
-\contentsline {section}{\numberline {1}Introduction}{4}{section.1}%
-\contentsline {section}{\numberline {2}Réseau}{5}{section.2}%
-\contentsline {section}{\numberline {3}Téléphonie}{6}{section.3}%
-\contentsline {section}{\numberline {4}Collecte de données}{7}{section.4}%
-\contentsline {section}{\numberline {5}Web/Base de données}{8}{section.5}%
+\contentsline {section}{\numberline {1}Réseau}{5}{section.1}%
+\contentsline {section}{\numberline {2}Téléphonie}{6}{section.2}%
+\contentsline {section}{\numberline {3}Collecte de données}{7}{section.3}%
+\contentsline {section}{\numberline {4}Web/Base de données}{8}{section.4}%
