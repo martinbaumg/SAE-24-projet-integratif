@@ -1,0 +1,123 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[francais]{babel}
+\usepackage{caption}
+\usepackage{graphicx}
+\usepackage[T1]{fontenc}
+\usepackage{listings}
+\usepackage{geometry}
+\usepackage{minted}
+\usepackage{array,multirow,makecell}
+\usepackage[colorlinks=true,linkcolor=black,anchorcolor=black,citecolor=black,filecolor=black,menucolor=black,runcolor=black,urlcolor=black]{hyperref}
+\setcellgapes{1pt}
+\makegapedcells
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{}
+\rhead{}
+\chead{}
+\rfoot{\thepage}
+\lfoot{Baumgaertner - Rehm - Doghmane}
+\cfoot{}
+\renewcommand{\footrulewidth}{0.4pt}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\listingscaption}{Code}
+\renewcommand{\listoflistingscaption}{Table des codes}
+
+% \usepackage{mathpazo} --> Police à utiliser lors de rapports plus sérieux
+
+\begin{document}
+\begin{titlepage}
+	\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} 
+	\center 
+	\textsc{\LARGE iut de colmar}\\[1.5cm] 
+	\textsc{\Large SAE 24}\\[0.5cm] 
+	\textsc{\large projet intégratif}\\[0.5cm]
+	\HRule\\[0.75cm]
+	{\huge\bfseries Rapport}\\[0.4cm]
+	\HRule\\[1.5cm]
+
+	% Utiliser les lignes qui suivent dans le cas où il y a plusieurs membres
+	%------------------------------------
+	\begin{minipage}{0.4\textwidth}
+		\begin{flushleft}
+			\large
+			\textit{RT11}\\
+			Martin \textsc{Baumgaertner}
+		\end{flushleft}
+	\end{minipage}
+	~
+	\begin{minipage}{0.4\textwidth}
+		\begin{flushright}
+			\large
+			\textit{RT12}\\
+			Mehdi \textsc{Rehm}
+		\end{flushright}
+	\end{minipage}
+    \\[0.7cm]
+    \begin{minipage}{0.4\textwidth}
+		\begin{flushleft}
+			\large
+			\textit{RT11}\\
+			Sâji \textsc{Doghmane}
+		\end{flushleft}
+	\end{minipage}
+	~
+    \begin{minipage}{0.4\textwidth}
+		\begin{flushright}
+			\large
+			\textit{\textcolor{white}{Mehdi}}\\
+			\textcolor{white}{Mehdi} \textsc{\textcolor{white}{Mehdi}}
+		\end{flushright}
+	\end{minipage}
+    
+	%------------------------------------
+    %------------------------------------
+	% \textsc{\large martin baumgaertner}\\[0.5cm] % S'il y que moi qui écrit
+    %------------------------------------
+	\vfill\vfill\vfill
+	{\large\today} 
+	\vfill
+\end{titlepage}
+\newpage
+\tableofcontents
+\newpage
+\listoflistings
+\newpage
+\listoffigures
+\newpage
+
+\section{Introduction}
+Nous avons fait face à de nombreuses situations lors de notre première année
+universitaire en B.U.T. Réseaux et Télécommunications. Nous avons appris 
+par exemple, la gestion de routeurs/switch, en passant par la création de 
+VLANs jusqu'à la mise en place d'une topologie réseau.\\ 
+Mais aussi, nous avons vu dans les grandes parties ce qu'était la téléphonie
+d'entreprise, en configurant des PABX et des téléphones IP, numériques et
+analogiques.\\
+Pour finir, nous avons pris connaissance de ce qu'était le développement 
+web, par l'apprentissage de différents langages de programmation, comme
+le HTML, CSS, Python, et Django, qui est un framework python. Les services
+MQTT comme la récéption de données envoyés par un capteur de température 
+par exemple ont aussi été abordé durant notre année.\\
+
+Toutes ces parties sont donc au sujet de notre dernière SAE, qui fera l'objet
+d'une évaluation très importante.
+
+
+
+\newpage
+\section{Réseau}
+
+
+\newpage
+\section{Téléphonie}
+
+\newpage
+\section{Collecte de données}
+
+
+\newpage
+\section{Web/Base de données}
+
+
+\end{document}
