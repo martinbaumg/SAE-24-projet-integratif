@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.15)  20 JUN 2022 22:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.15)  21 JUN 2022 15:12
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -552,13 +552,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--105
 
  []
 
-<img/topologie.png, id=73, 677.53125pt x 677.53125pt>
+<img/topologie.png, id=150, 677.53125pt x 677.53125pt>
 File: img/topologie.png Graphic file (type png)
 <use img/topologie.png>
 Package pdftex.def Info: img/topologie.png  used on input line 113.
 (pdftex.def)             Requested size: 209.12683pt x 209.12274pt.
 [4 <./img/topologie.png>] [5] [6]
-Package hyperref Info: bookmark level for unknown listing defaults to 0 on input line 152.
+Package hyperref Info: bookmark level for unknown listing defaults to 0 on input line 175.
 \openout3 = `rapport.pyg'.
 
  (./_minted-rapport/default.pygstyle) (./_minted-rapport/60C0EF61531DABE16BD70B49C2238379857A87987A6295758909806005013C94.pygtex
@@ -572,25 +572,31 @@ File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ))
 \openout3 = `rapport.pyg'.
 
- (./_minted-rapport/D33EEB9175EF089E954E5C5D055BDCC7D82E77CF33B0E5351674FC648B18645F.pygtex) [7] [8] (./rapport.aux)
+ (./_minted-rapport/D33EEB9175EF089E954E5C5D055BDCC7D82E77CF33B0E5351674FC648B18645F.pygtex) [7]
+<img/recup.png, id=176, 1076.02pt x 278.03876pt>
+File: img/recup.png Graphic file (type png)
+<use img/recup.png>
+Package pdftex.def Info: img/recup.png  used on input line 197.
+(pdftex.def)             Requested size: 418.25368pt x 108.07405pt.
+ [8 <./img/recup.png>] [9] (./rapport.aux)
 Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: 2359DBEEE392078EAC77F5020E2B421C;961.
+(rerunfilecheck)             Checksum: 7F486367885DA0F218DACEEA8A3D83D0;3682.
 runsystem(rm rapport.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 17433 strings out of 478268
- 295733 string characters out of 5846347
- 643908 words of memory out of 5000000
- 35372 multiletter control sequences out of 15000+600000
+ 17473 strings out of 478268
+ 296394 string characters out of 5846347
+ 646989 words of memory out of 5000000
+ 35394 multiletter control sequences out of 15000+600000
  482168 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,81p,347b,672s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,81p,417b,672s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc2074.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on rapport.pdf (9 pages, 237007 bytes).
+Output written on rapport.pdf (10 pages, 384217 bytes).
 PDF statistics:
- 165 PDF objects out of 1000 (max. 8388607)
- 125 compressed objects within 2 object streams
- 23 named destinations out of 1000 (max. 500000)
- 62 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 254 PDF objects out of 1000 (max. 8388607)
+ 210 compressed objects within 3 object streams
+ 40 named destinations out of 1000 (max. 500000)
+ 187 words of extra memory for PDF output out of 10000 (max. 10000000)
 

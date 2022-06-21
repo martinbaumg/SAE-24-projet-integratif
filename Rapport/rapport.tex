@@ -118,15 +118,38 @@ Voici un schéma résumant le réseau que nous allons créer :
 
 \newpage
 \section{Réseau}
+	\subsection{Introduction}
 
-passerelle = 172.114.10.254 = vlan 10
+	passerelle = 172.114.10.254 = vlan 10
 
-adressage pour les vlan (tous les vlan ont une ip) = 172.114.10.253
+	adressage pour les vlan (tous les vlan ont une ip) = 172.114.10.253
+
+	\subsection{Création des réseaux}
+		\subsubsection{Configuration des VLANs}
+		Pour configurer les VLANs nous nous smmes 
+
+		\subsubsection{Routage Inter-VLAN}
+
+		\subsubsection{Vérification du réseau}
+
+	\subsection{Configuration du NAT}
+
+	\subsection{Mise en place des ACL}
+
+	\subsection{Mise en place des services demandés}
+
+		\subsubsection{Création du serveur FTP}
+
+		\subsubsection{Création du serveur WEB}
+	
+	\subsection{Vérification des services}
+
 
 
 
 \newpage
 \section{Téléphonie}
+\subsection{Introduction}
 
 
 \newpage
@@ -165,10 +188,25 @@ données qui nous servira plus tard pour la partie Web.
 		pip3 install paho-mqtt python-etcd
 			\end{minted}
 		\end{listing}
+		\newpage
+		\subsubsection{Éxécution du script}
+		Au moment de l'éxécution du programme, j'obtiens bien les valeurs que 
+		nous voulions recevoir comme nous pouvons le constater ci dessous :
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=1\textwidth]{img/recup.png}
+			\caption{Récupération des données}
+			\label{fig:recup}
+		\end{figure}
+		Le problème est qu'il nous était demandé de récupérer un ID différent
+		à chaque fois qu'une valeur de température est reçue.
+
+	\subsection{Sauvegarde des valeurs dans la base de données}
 
 
 \newpage
 \section{Web/Base de données}
+\subsection{Introduction}
 
 
 \end{document}
