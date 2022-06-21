@@ -118,23 +118,95 @@ Voici un schéma résumant le réseau que nous allons créer :
 
 \newpage
 \section{Réseau}
+	\subsection{Introduction}
 
-passerelle = 172.114.10.254 = vlan 10
+	passerelle = 172.114.10.254 = vlan 10
 
-adressage pour les vlan (tous les vlan ont une ip) = 172.114.10.253
+	adressage pour les vlan (tous les vlan ont une ip) = 172.114.10.253
+
+	\subsection{Création des réseaux}
+		\subsubsection{Configuration des VLANs}
+		Pour configurer les VLANs nous nous smmes 
+
+		\subsubsection{Routage Inter-VLAN}
+
+		\subsubsection{Vérification du réseau}
+
+	\subsection{Configuration du NAT}
+
+	\subsection{Mise en place des ACL}
+
+	\subsection{Mise en place des services demandés}
+
+		\subsubsection{Création du serveur FTP}
+
+		\subsubsection{Création du serveur WEB}
+	
+	\subsection{Vérification des services}
+
 
 
 
 \newpage
 \section{Téléphonie}
+\subsection{Introduction}
 
 
 \newpage
 \section{Collecte de données}
+\subsection{Introduction}
+Au courant de l'année nous avons pu voir différents mode de collecte de
+données, notamment la récupération via MQTT. D'abord, qu'est-ce que MQTT ?
+MQTT, pour "Message Queuing Telemetry Transport", est un protocole
+open source de messagerie qui assure des communications non permanentes
+entre des appareils par le transport de leurs messages.\\
+Le but de cette partie étant de récupérer des données. Nous devons réceptionner
+des valeures de température sur une pièce. Nous devons être capable de
+les afficher selon les critères définit, et les intégrer dans une base de
+données qui nous servira plus tard pour la partie Web. 
+	\subsection{Récupération de données}
+		\subsubsection{Configuration du script}
+		Pour pouvoir récupérer les données depuis le MQTT, j'ai donc dû
+		adapter le script python que nous a été donné dans le diaporama
+		et j'ai du l'adapter pour qu'il récupère les bonnes données.\\ 
+		J'ai modifié les lignes suivantes, en y ajoutant les bonnes valeurs
+		de connexion :
+		\begin{listing}[H]
+			\caption{Configuration des IDs de connexion}
+			\label{lst:id}
+			\begin{minted}{py}
+		broker = 'test.mosquitto.org'
+		topic = "IUT/Colmar/SAE24/Maison1"
+			\end{minted}
+		\end{listing}
+		Par la suite j'ai du installer un paquet qui était prérequis 
+		pour que le script puisse s'éxecuter correctement à savoir :
+		\begin{listing}[H]
+			\caption{Installation des paquets nécessaire au script MQTT}
+			\label{lst:paho}
+			\begin{minted}{bash}
+		pip3 install paho-mqtt python-etcd
+			\end{minted}
+		\end{listing}
+		\newpage
+		\subsubsection{Éxécution du script}
+		Au moment de l'éxécution du programme, j'obtiens bien les valeurs que 
+		nous voulions recevoir comme nous pouvons le constater ci dessous :
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=1\textwidth]{img/recup.png}
+			\caption{Récupération des données}
+			\label{fig:recup}
+		\end{figure}
+		Le problème est qu'il nous était demandé de récupérer un ID différent
+		à chaque fois qu'une valeur de température est reçue.
+
+	\subsection{Sauvegarde des valeurs dans la base de données}
 
 
 \newpage
 \section{Web/Base de données}
+\subsection{Introduction}
 
 
 \end{document}
