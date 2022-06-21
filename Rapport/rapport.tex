@@ -7,6 +7,7 @@
 \usepackage{geometry}
 \usepackage{minted}
 \usepackage{array,multirow,makecell}
+\usepackage{float}
 \usepackage[colorlinks=true,linkcolor=black,anchorcolor=black,citecolor=black,filecolor=black,menucolor=black,runcolor=black,urlcolor=black]{hyperref}
 \setcellgapes{1pt}
 \makegapedcells
@@ -119,16 +120,60 @@ Voici un schéma résumant le réseau que nous allons créer :
 \newpage
 \section{Réseau}
 	\subsection{Introduction}
-
-	passerelle = 172.114.10.254 = vlan 10
-
-	adressage pour les vlan (tous les vlan ont une ip) = 172.114.10.253
+	Dans cette partie nous verrons le commencement de la SAE. Nous allons
+	devoir configurer un réseau pour pouvoir y déployer plusieurs services. 
+	Nous avons vu sur le schéma précédent que nous serions amener à créer 
+	des VLANs, et configurer des access-lists selon les besoin 
+	du client. Mais aussi, nous déployerons un serveur FTP et un serveur web
+	sur depuis une machine windows server.\\
+	Le but de cette partie étant de créer un réseau complet, pour pouvoir
+	par la suite faire les autres parties en toute tranquilité.
 
 	\subsection{Création des réseaux}
 		\subsubsection{Configuration des VLANs}
-		Pour configurer les VLANs nous nous smmes 
+		Nous avons donc commencer par créer les VLANs sur le switch.\\
+		Pour créer un VLAN, il suffit de rentrer dans les ou l'interface(s) 
+		que nous souhaitons affecter à un VLAN, et de lui dire donc quel VLAN
+		sera affecté à cette/ces interfaces.\\
+		Voici, des captures d'écrans des configurations des VLANs :\\[0.5cm]
+		\begin{figure}[h]
+			\begin{minipage}[c]{.46\linewidth}
+				\centering
+				\includegraphics{screens/SW/Interface-VLAN10.png}
+				\caption{Interface VLAN10}
+			\end{minipage}
+			\hfill%
+			\begin{minipage}[c]{.46\linewidth}
+				\centering
+				\includegraphics{screens/SW/Interface-VLAN20.png}
+				\caption{Interface VLAN20}
+			\end{minipage}
+		\end{figure}
+
+		\begin{figure}[h]
+			\begin{minipage}[c]{.46\linewidth}
+				\centering
+				\includegraphics{screens/SW/Interface-VLAN30.png}
+				\caption{Interface VLAN30}
+			\end{minipage}
+			\hfill%
+			\begin{minipage}[c]{.46\linewidth}
+				\centering
+				\includegraphics{screens/SW/Interface-VLAN40.png}
+				\caption{Interface VLAN40}
+			\end{minipage}
+		\end{figure}
+		\newpage
 
 		\subsubsection{Routage Inter-VLAN}
+		Ensuite, pour que nos VLANs puissent communiquer, nous avons mis un
+		en place un routage inter-vlans sur le routeur que voici :\\
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.7\textwidth]{screens/routeur/interface.png}
+			\caption{Routage Inter-Vlans}
+			\label{fig:intervlan}
+		\end{figure}
 
 		\subsubsection{Vérification du réseau}
 
