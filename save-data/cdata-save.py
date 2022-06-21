@@ -10,7 +10,7 @@ MQTT_USER = 'emqx'
 MQTT_PASSWORD = 'public'
 TOPIC = 'IUT/Colmar/SAE24/Maison1'
  
-DATABASE_FILE = 'mqtt.db'
+DATABASE_FILE = '../web-django/db.sqlite3'
  
  
 def on_connect(mqtt_client, user_data, flags, conn_result):
