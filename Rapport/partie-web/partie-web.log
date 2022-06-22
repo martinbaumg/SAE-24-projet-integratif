@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.15)  22 JUN 2022 13:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.15)  22 JUN 2022 14:23
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/martinbaumgaertner/Documents/GitHub/SAE-24/Rapport/rapport.tex
-(/Users/martinbaumgaertner/Documents/GitHub/SAE-24/Rapport/rapport.tex
+**/Users/martinbaumgaertner/Documents/GitHub/SAE-24/Rapport/partie-web/partie-web.tex
+(/Users/martinbaumgaertner/Documents/GitHub/SAE-24/Rapport/partie-web/partie-web.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24> (/usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -241,10 +241,10 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )) (/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 )
-runsystem(uname -s > "rapport.w18")...executed.
+runsystem(uname -s > "partie-web.w18")...executed.
 
- (./rapport.w18)
-runsystem(rm -- "rapport.w18")...executed.
+ (./partie-web.w18)
+runsystem(rm -- "partie-web.w18")...executed.
 
 ) (/usr/local/texlive/2022/texmf-dist/tex/generic/xstring/xstring.sty (/usr/local/texlive/2022/texmf-dist/tex/generic/xstring/xstring.tex
 \integerpart=\count306
@@ -274,7 +274,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@every@listing=\toks23
 \c@listing=\count311
 )
-runsystem(mkdir -p _minted-rapport)...executed.
+runsystem(mkdir -p _minted-partie-web)...executed.
 
  (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/array.sty
 Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
@@ -409,16 +409,16 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
 )
-runsystem(which pygmentize && touch rapport.aex)...executed.
+runsystem(which pygmentize && touch partie-web.aex)...executed.
 
-runsystem(rm rapport.aex)...executed.
+runsystem(rm partie-web.aex)...executed.
 
  (/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count324
 \l__pdf_internal_box=\box63
-) (./rapport.aux)
-\openout1 = `rapport.aux'.
+) (./partie-web.aux)
+\openout1 = `partie-web.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
 LaTeX Font Info:    ... okay on input line 29.
@@ -513,9 +513,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 29.
 LaTeX Info: Redefining \pageref on input line 29.
 LaTeX Info: Redefining \nameref on input line 29.
- (./rapport.out) (./rapport.out)
+ (./partie-web.out) (./partie-web.out)
 \@outlinefile=\write5
-\openout5 = `rapport.out'.
+\openout5 = `partie-web.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 48.
@@ -525,110 +525,40 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 48.
  [1
 
-{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./rapport.toc)
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./partie-web.toc)
 \tf@toc=\write6
-\openout6 = `rapport.toc'.
+\openout6 = `partie-web.toc'.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.84 \newpage
-              [1] (./rapport.lol)
+              [1] (./partie-web.lol)
 \tf@lol=\write7
-\openout7 = `rapport.lol'.
+\openout7 = `partie-web.lol'.
 
- [2] (./rapport.lof)
+ [2] (./partie-web.lof)
 \tf@lof=\write8
-\openout8 = `rapport.lof'.
+\openout8 = `partie-web.lof'.
 
- [3]
-Underfull \hbox (badness 10000) in paragraph at lines 91--103
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--106
-
- []
-
-<img/topologie.png, id=158, 677.53125pt x 677.53125pt>
-File: img/topologie.png Graphic file (type png)
-<use img/topologie.png>
-Package pdftex.def Info: img/topologie.png  used on input line 114.
-(pdftex.def)             Requested size: 209.12683pt x 209.12274pt.
-[4 <./img/topologie.png>]
-<screens/SW/Interface-VLAN10.png, id=167, 145.29282pt x 36.88782pt>
-File: screens/SW/Interface-VLAN10.png Graphic file (type png)
-<use screens/SW/Interface-VLAN10.png>
-Package pdftex.def Info: screens/SW/Interface-VLAN10.png  used on input line 142.
-(pdftex.def)             Requested size: 145.29245pt x 36.88771pt.
-<screens/SW/Interface-VLAN20.png, id=168, 145.29282pt x 37.64063pt>
-File: screens/SW/Interface-VLAN20.png Graphic file (type png)
-<use screens/SW/Interface-VLAN20.png>
-Package pdftex.def Info: screens/SW/Interface-VLAN20.png  used on input line 148.
-(pdftex.def)             Requested size: 145.29245pt x 37.64052pt.
-<screens/SW/Interface-VLAN30.png, id=169, 146.04562pt x 36.135pt>
-File: screens/SW/Interface-VLAN30.png Graphic file (type png)
-<use screens/SW/Interface-VLAN30.png>
-Package pdftex.def Info: screens/SW/Interface-VLAN30.png  used on input line 156.
-(pdftex.def)             Requested size: 146.04524pt x 36.13489pt.
-<screens/SW/Interface-VLAN40.png, id=170, 143.78719pt x 36.135pt>
-File: screens/SW/Interface-VLAN40.png Graphic file (type png)
-<use screens/SW/Interface-VLAN40.png>
-Package pdftex.def Info: screens/SW/Interface-VLAN40.png  used on input line 162.
-(pdftex.def)             Requested size: 143.78683pt x 36.13489pt.
- [5 <./screens/SW/Interface-VLAN10.png> <./screens/SW/Interface-VLAN20.png> <./screens/SW/Interface-VLAN30.png> <./screens/SW/Interface-VLAN40.png>]
-<screens/routeur/interface.png, id=181, 219.06844pt x 352.31625pt>
-File: screens/routeur/interface.png Graphic file (type png)
-<use screens/routeur/interface.png>
-Package pdftex.def Info: screens/routeur/interface.png  used on input line 173.
-(pdftex.def)             Requested size: 292.77629pt x 470.86485pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 169--176
-
- []
-
-[6 <./screens/routeur/interface.png>] [7] [8]
-Package hyperref Info: bookmark level for unknown listing defaults to 0 on input line 220.
-\openout3 = `rapport.pyg'.
-
- (./_minted-rapport/default.pygstyle) (./_minted-rapport/60C0EF61531DABE16BD70B49C2238379857A87987A6295758909806005013C94.pygtex
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1.
- (/usr/local/texlive/2022/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 2.
- (/usr/local/texlive/2022/texmf-dist/tex/latex/base/ts1cmtt.fd
-File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-))
-\openout3 = `rapport.pyg'.
-
- (./_minted-rapport/D33EEB9175EF089E954E5C5D055BDCC7D82E77CF33B0E5351674FC648B18645F.pygtex) [9]
-<img/recup.png, id=202, 1076.02pt x 278.03876pt>
-File: img/recup.png Graphic file (type png)
-<use img/recup.png>
-Package pdftex.def Info: img/recup.png  used on input line 242.
-(pdftex.def)             Requested size: 418.25368pt x 108.07405pt.
- [10 <./img/recup.png>] [11] (./rapport.aux)
-Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: 7F486367885DA0F218DACEEA8A3D83D0;3682.
-runsystem(rm rapport.pyg)...executed.
-
+ [3] [4] (./partie-web.aux)
+Package rerunfilecheck Info: File `partie-web.out' has not changed.
+(rerunfilecheck)             Checksum: 9814C2D956916ADB9290ECA4E25C967A;103.
  ) 
 Here is how much of TeX's memory you used:
- 17516 strings out of 478268
- 297664 string characters out of 5846347
- 647040 words of memory out of 5000000
- 35425 multiletter control sequences out of 15000+600000
- 482168 words of font info for 52 fonts, out of 8000000 for 9000
+ 17219 strings out of 478268
+ 291714 string characters out of 5846347
+ 641591 words of memory out of 5000000
+ 35196 multiletter control sequences out of 15000+600000
+ 480783 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,81p,417b,672s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc2074.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on rapport.pdf (12 pages, 403831 bytes).
+ 75i,11n,81p,361b,443s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc2074.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb>
+Output written on partie-web.pdf (5 pages, 111372 bytes).
 PDF statistics:
- 281 PDF objects out of 1000 (max. 8388607)
- 225 compressed objects within 3 object streams
- 45 named destinations out of 1000 (max. 500000)
- 212 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 85 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
+ 9 named destinations out of 1000 (max. 500000)
+ 9 words of extra memory for PDF output out of 10000 (max. 10000000)
 
