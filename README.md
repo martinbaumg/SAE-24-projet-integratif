@@ -11,4 +11,7 @@
 
 Toutes ces parties étaient reliés entres-elles. Nous avons du créer un réseau dont voici la topologie :
 
+![alt text](https://github.com/martinbaumg/SAE-24/blob/main/Rapport/img/topologie.png)
+
+
 Dans ce réseau, nous y avons déployé plusieurs services commme de la téléphonie, des serveurs etc.
