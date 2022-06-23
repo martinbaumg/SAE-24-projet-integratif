@@ -1,4 +1,4 @@
-# SAE-24
+# SAE-24 - Projet Intégratif
  
  La SAE 24 - Projet intégratif a eu pour but de relier toutes les connaissances que j'avais acquises lors de ma première année universitaire en B.U.T. Réseaux & Télécommunications. 
  
