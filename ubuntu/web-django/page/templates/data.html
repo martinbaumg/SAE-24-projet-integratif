@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=fr , initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        setTimeout(function(){
+            window.location.reload(1);
+        }, 2000);
+    </script>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+          
+            <div class="card">
+              
+              <div class="card-header">
+              </div>
+              <div class="card-body">
+                <div class="table-responsive">
+                  <table class="table">
+                    <thead class="text-primary">
+                      <th>Température :</th>
+                      <th>Heure :</th>
+                    </thead>
+                    {% for temp in temp %}
+                    <tbody>
+                      <tr>
+                        <td>{{temp.temp}}°C
+                        </td> 
+                        <td>{{temp.datetime}}</td>
+                      </tr>
+                    </tbody>
+                    {% endfor %}
+                  </table>
+                </div>
+              </div>
+            </div>
+            <br>
+        </div>
+        </div>
+        <a href="{% url 'index' %}">retour</a>
+</body>
+</html>

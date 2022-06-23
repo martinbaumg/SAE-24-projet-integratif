@@ -137,5 +137,69 @@ données qui nous servira plus tard pour la partie Web.
 		à chaque fois qu'une valeur de température est reçue.
 
 	\section{Sauvegarde des valeurs dans la base de données}
+		\subsection{Explications}
+		L'objectif finale de cet exerice d'ensuite pouvoir sauvegarder les données dans une 
+		base de données pour ensuite permettre l'affichage de ces données dans une page web.
+		Pour ce faire, j'ai donc du ércrire un script qui permet premièrement la réception
+		des données MQTT, puis qui les stock dans une base de données.
+
+
+		\subsection{Configuration du script}
+		Le script est composé de plusieurs parties. Il commence par se connecter à la base 
+		de données :
+		\begin{listing}[H]
+			\caption{Connexion à la base de données}
+			\label{lst:co}
+			\begin{minted}{py}
+	try:
+    	db=_mysql.connect("10.37.129.3","martin","martin", "temp")
+	except OperationalError:
+    	db=_mysql.connect("10.37.129.3","martin","martin")
+    	db.query("CREATE DATABASE martin")
+    	db.query("USE martin")
+			\end{minted}
+		\end{listing}
+		\newpage
+		L'adresse IP renseigné correspond à celle de ma macbine Windows où est installé
+		ma base de données :
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.6\textwidth]{../img/ip.png}
+			\caption{Adresse IP de ma machine windows}
+			\label{fig:ip}
+		\end{figure}
+	
+		Puis, on défini les tables que l'on créer et les valeurs que l'on ajoute etc. :
+		\begin{listing}[H]
+			\caption{Création des tables}
+			\label{lst:tables}
+			\begin{minted}{sql}
+	db.ping(True)
+	db.query("""
+	CREATE TABLE IF NOT EXISTS martin.sensors (
+		id INT NOT NULL AUTO_INCREMENT,
+		macaddr VARCHAR(12) NOT NULL,
+		piece VARCHAR(50) NOT NULL,
+		emplacement VARCHAR(50),
+		nom VARCHAR(50),
+		UNIQUE (macaddr),
+		PRIMARY KEY (id))
+	""")
+
+	db.query("""
+	CREATE TABLE IF NOT EXISTS martin.sensors_data (
+		id INT NOT NULL AUTO_INCREMENT,
+		sensor_id INT NOT NULL,
+		CONSTRAINT sensorFK
+			FOREIGN KEY (sensor_id)
+			REFERENCES martin.sensors(id),
+		datetime DATETIME NOT NULL,
+		temp FLOAT NOT NULL,
+		PRIMARY KEY (id))
+	""")
+			\end{minted}
+		\end{listing}
+
+
 
 \end{document}

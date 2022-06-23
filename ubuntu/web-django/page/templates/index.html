@@ -1,0 +1,59 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="{% static '/css/main.css' %}" >
+</head>
+<body>
+
+
+
+
+  <div class="container">
+  <div class="row">
+    <div class="col-md-12">
+    
+      <div class="card">
+        
+        <div class="card-header">
+        </div>
+        <div class="card-body">
+          <div class="table-responsive">
+            <table class="table">
+              <thead class="text-primary">
+                <th>Nom du capteur :</th>
+                <th>Lieu :</th>
+                <th>Pièce :</th>
+                <th>Adresse MAC :</th>
+              </thead>
+              {% for sensors in sensors %}
+              <tbody>
+                <tr>
+                
+                  <td>{{sensors.nom}}
+                    <a href="{% url 'temp' sensors.id %}" class="btn btn-primary">Voir les températures de ce capteur</a>
+                  </td> 
+                  <td>{{sensors.emplacement}}</td>
+                  <td>{{sensors.piece}}</td>
+                  <td>{{sensors.macaddr}}</td>
+                </tr>
+              </tbody>
+              {% endfor %}
+            </table>
+          </div>
+        </div>
+      </div>
+      <br>
+    </div>
+
+  </div>
+
+</body>
+</html>

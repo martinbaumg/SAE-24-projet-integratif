@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{k}{try}\PYG{p}{:}
+    	\PYG{n}{db}\PYG{o}{=}\PYG{n}{\PYGZus{}mysql}\PYG{o}{.}\PYG{n}{connect}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}10.37.129.3\PYGZdq{}}\PYG{p}{,}\PYG{l+s+s2}{\PYGZdq{}martin\PYGZdq{}}\PYG{p}{,}\PYG{l+s+s2}{\PYGZdq{}martin\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}temp\PYGZdq{}}\PYG{p}{)}
+	\PYG{k}{except} \PYG{n}{OperationalError}\PYG{p}{:}
+    	\PYG{n}{db}\PYG{o}{=}\PYG{n}{\PYGZus{}mysql}\PYG{o}{.}\PYG{n}{connect}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}10.37.129.3\PYGZdq{}}\PYG{p}{,}\PYG{l+s+s2}{\PYGZdq{}martin\PYGZdq{}}\PYG{p}{,}\PYG{l+s+s2}{\PYGZdq{}martin\PYGZdq{}}\PYG{p}{)}
+    	\PYG{n}{db}\PYG{o}{.}\PYG{n}{query}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}CREATE DATABASE martin\PYGZdq{}}\PYG{p}{)}
+    	\PYG{n}{db}\PYG{o}{.}\PYG{n}{query}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}USE martin\PYGZdq{}}\PYG{p}{)}
+\end{Verbatim}

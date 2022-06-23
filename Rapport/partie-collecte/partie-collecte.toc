@@ -4,3 +4,5 @@
 \contentsline {subsection}{\numberline {2.1}Configuration du script}{4}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Éxécution du script}{5}{subsection.2.2}%
 \contentsline {section}{\numberline {3}Sauvegarde des valeurs dans la base de données}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Explications}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Configuration du script}{5}{subsection.3.2}%

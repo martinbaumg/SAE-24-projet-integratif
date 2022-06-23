@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: random-name-generator
+Version: 1.0.7
+Summary: Random Names Generator
+Home-page: UNKNOWN
+Author: Antonio Di Mariano
+Author-email: antonio.dimariano@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: ~=3.6
+
+UNKNOWN
+
+

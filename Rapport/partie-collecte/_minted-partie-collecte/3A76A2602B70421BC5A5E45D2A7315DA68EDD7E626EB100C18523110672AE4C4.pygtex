@@ -1,0 +1,25 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{+w}{	}\PYG{n}{db}\PYG{p}{.}\PYG{n}{ping}\PYG{p}{(}\PYG{k}{True}\PYG{p}{)}
+\PYG{+w}{	}\PYG{n}{db}\PYG{p}{.}\PYG{n}{query}\PYG{p}{(}\PYG{l+s+ss}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+ss}{	CREATE TABLE IF NOT EXISTS martin.sensors (}
+\PYG{l+s+ss}{		id INT NOT NULL AUTO\PYGZus{}INCREMENT,}
+\PYG{l+s+ss}{		macaddr VARCHAR(12) NOT NULL,}
+\PYG{l+s+ss}{		piece VARCHAR(50) NOT NULL,}
+\PYG{l+s+ss}{		emplacement VARCHAR(50),}
+\PYG{l+s+ss}{		nom VARCHAR(50),}
+\PYG{l+s+ss}{		UNIQUE (macaddr),}
+\PYG{l+s+ss}{		PRIMARY KEY (id))}
+\PYG{l+s+ss}{	\PYGZdq{}\PYGZdq{}\PYGZdq{}}\PYG{p}{)}
+
+\PYG{+w}{	}\PYG{n}{db}\PYG{p}{.}\PYG{n}{query}\PYG{p}{(}\PYG{l+s+ss}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+ss}{	CREATE TABLE IF NOT EXISTS martin.sensors\PYGZus{}data (}
+\PYG{l+s+ss}{		id INT NOT NULL AUTO\PYGZus{}INCREMENT,}
+\PYG{l+s+ss}{		sensor\PYGZus{}id INT NOT NULL,}
+\PYG{l+s+ss}{		CONSTRAINT sensorFK}
+\PYG{l+s+ss}{			FOREIGN KEY (sensor\PYGZus{}id)}
+\PYG{l+s+ss}{			REFERENCES martin.sensors(id),}
+\PYG{l+s+ss}{		datetime DATETIME NOT NULL,}
+\PYG{l+s+ss}{		temp FLOAT NOT NULL,}
+\PYG{l+s+ss}{		PRIMARY KEY (id))}
+\PYG{l+s+ss}{	\PYGZdq{}\PYGZdq{}\PYGZdq{}}\PYG{p}{)}
+\end{Verbatim}
