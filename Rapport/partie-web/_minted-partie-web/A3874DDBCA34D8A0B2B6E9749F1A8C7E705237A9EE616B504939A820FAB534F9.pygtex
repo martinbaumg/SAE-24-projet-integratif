@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{+w}{	}\PYG{k}{CREATE}\PYG{+w}{ }\PYG{k}{USER}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}martin\PYGZsq{}}\PYG{n+nv}{@\PYGZsq{}10.37.129.4\PYGZsq{}}\PYG{+w}{ }\PYG{k}{IDENTIFIED}\PYG{+w}{ }\PYG{k}{BY}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}martin\PYGZsq{}}\PYG{p}{;}
+\PYG{+w}{	}\PYG{k}{GRANT}\PYG{+w}{ }\PYG{k}{ALL}\PYG{+w}{ }\PYG{k}{PRIVILEGES}\PYG{+w}{ }\PYG{k}{ON}\PYG{+w}{ }\PYG{o}{*}\PYG{p}{.}\PYG{o}{*}\PYG{+w}{ }\PYG{k}{TO}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}martin\PYGZsq{}}\PYG{n+nv}{@\PYGZsq{}10.37.129.4\PYGZsq{}}\PYG{p}{;}
+\PYG{+w}{	}\PYG{k}{FLUSH}\PYG{+w}{ }\PYG{k}{PRIVILEGES}\PYG{p}{;}
+\end{Verbatim}

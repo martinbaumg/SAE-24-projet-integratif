@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{n}{DATABASES} \PYG{o}{=} \PYG{p}{\PYGZob{}}
+		\PYG{l+s+s1}{\PYGZsq{}default\PYGZsq{}}\PYG{p}{:} \PYG{p}{\PYGZob{}}
+			\PYG{l+s+s1}{\PYGZsq{}ENGINE\PYGZsq{}}\PYG{p}{:} \PYG{l+s+s1}{\PYGZsq{}django.db.backends.mysql\PYGZsq{}}\PYG{p}{,}
+			\PYG{l+s+s1}{\PYGZsq{}NAME\PYGZsq{}}\PYG{p}{:} \PYG{l+s+s1}{\PYGZsq{}temp\PYGZsq{}}\PYG{p}{,}
+			\PYG{l+s+s1}{\PYGZsq{}USER\PYGZsq{}}\PYG{p}{:} \PYG{l+s+s1}{\PYGZsq{}martin\PYGZsq{}}\PYG{p}{,}
+			\PYG{l+s+s1}{\PYGZsq{}HOST\PYGZsq{}}\PYG{p}{:} \PYG{l+s+s1}{\PYGZsq{}10.37.129.3\PYGZsq{}}\PYG{p}{,}
+			\PYG{l+s+s1}{\PYGZsq{}PORT\PYGZsq{}}\PYG{p}{:} \PYG{l+s+s1}{\PYGZsq{}3306\PYGZsq{}}\PYG{p}{,}
+			\PYG{l+s+s1}{\PYGZsq{}PASSWORD\PYGZsq{}}\PYG{p}{:} \PYG{l+s+s1}{\PYGZsq{}martin\PYGZsq{}}\PYG{p}{,}
+		\PYG{p}{\PYGZcb{}}
+	\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

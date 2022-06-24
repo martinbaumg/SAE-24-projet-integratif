@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{temp}\PYG{p}{(}\PYG{n}{request}\PYG{p}{,} \PYG{n+nb}{id}\PYG{p}{):}
+	\PYG{n}{temp} \PYG{o}{=} \PYG{n}{SensorsData}\PYG{o}{.}\PYG{n}{objects}\PYG{o}{.}\PYG{n}{filter}\PYG{p}{(}\PYG{n}{sensor\PYGZus{}\PYGZus{}id}\PYG{o}{=}\PYG{n+nb}{id}\PYG{p}{)}
+	\PYG{k}{return} \PYG{n}{render}\PYG{p}{(}\PYG{n}{request}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}data.html\PYGZsq{}}\PYG{p}{,} \PYG{p}{\PYGZob{}}\PYG{l+s+s1}{\PYGZsq{}temp\PYGZsq{}}\PYG{p}{:} \PYG{n}{temp}\PYG{p}{\PYGZcb{})}
+\end{Verbatim}

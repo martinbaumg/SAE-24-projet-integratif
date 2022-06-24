@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.15)  22 JUN 2022 14:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.15)  24 JUN 2022 14:21
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -518,47 +518,117 @@ LaTeX Info: Redefining \nameref on input line 29.
 \openout5 = `partie-web.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 48.
+(Font)              <12> on input line 49.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 48.
+(Font)              <8> on input line 49.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 48.
+(Font)              <6> on input line 49.
  [1
 
-{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./partie-web.toc)
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./partie-web.toc
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 7.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+))
 \tf@toc=\write6
 \openout6 = `partie-web.toc'.
+
+ (./partie-web.lol)
+\tf@lol=\write7
+\openout7 = `partie-web.lol'.
+
+ (./partie-web.lof)
+\tf@lof=\write8
+\openout8 = `partie-web.lof'.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.84 \newpage
-              [1] (./partie-web.lol)
-\tf@lol=\write7
-\openout7 = `partie-web.lol'.
+l.87 \newpage
+              [1]
+Package hyperref Info: bookmark level for unknown listing defaults to 0 on input line 105.
+\openout3 = `partie-web.pyg'.
 
- [2] (./partie-web.lof)
-\tf@lof=\write8
-\openout8 = `partie-web.lof'.
+ (./_minted-partie-web/default.pygstyle) (./_minted-partie-web/2FE3A62A905FD82C2BD2635E8A3E80D5E0CADE503F8449CF0FD856DEDC39C422.pygtex
+LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 3.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/base/ts1cmtt.fd
+File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)) [2]
+\openout3 = `partie-web.pyg'.
 
- [3] [4] (./partie-web.aux)
+ (./_minted-partie-web/A3874DDBCA34D8A0B2B6E9749F1A8C7E705237A9EE616B504939A820FAB534F9.pygtex
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <12> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 2.
+)
+<../img/tables.png, id=99, 229.85875pt x 298.11375pt>
+File: ../img/tables.png Graphic file (type png)
+<use ../img/tables.png>
+Package pdftex.def Info: ../img/tables.png  used on input line 151.
+(pdftex.def)             Requested size: 167.2989pt x 216.98894pt.
+ [3 <../img/tables.png>]
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 157.
+\openout3 = `partie-web.pyg'.
+
+ (./_minted-partie-web/0D8B2BB7A7C7EFEA462CEB7053A55A011E5DE23916D975B77443152691B3571C.pygtex)
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
+
+ []
+
+\openout3 = `partie-web.pyg'.
+
+(./_minted-partie-web/2CC316F5BD0E5B8BAEB3CC96242A3278276F05C63A0DDA8F00437C0F5041ECE4.pygtex) [4]
+<../img/index.png, id=112, 972.63374pt x 133.49875pt>
+File: ../img/index.png Graphic file (type png)
+<use ../img/index.png>
+Package pdftex.def Info: ../img/index.png  used on input line 188.
+(pdftex.def)             Requested size: 418.25368pt x 57.4074pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--191
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--195
+
+ []
+
+\openout3 = `partie-web.pyg'.
+
+(./_minted-partie-web/736595EF3009811CD2BB84161E7B7491276F05C63A0DDA8F00437C0F5041ECE4.pygtex) [5 <../img/index.png>]
+<../img/data.png, id=118, 972.63374pt x 559.08875pt>
+File: ../img/data.png Graphic file (type png)
+<use ../img/data.png>
+Package pdftex.def Info: ../img/data.png  used on input line 216.
+(pdftex.def)             Requested size: 418.25368pt x 240.42053pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--219
+
+ []
+
+[6 <../img/data.png>]
+\openout3 = `partie-web.pyg'.
+
+ (./_minted-partie-web/C089BC0898D0EE79868D62531E0D6594E57BA18619FC84641CCED1739A891871.pygtex) [7] (./partie-web.aux)
 Package rerunfilecheck Info: File `partie-web.out' has not changed.
-(rerunfilecheck)             Checksum: 9814C2D956916ADB9290ECA4E25C967A;103.
+(rerunfilecheck)             Checksum: BCA4A0E6BE6FE452AB017DC64134A0C6;2287.
+runsystem(rm partie-web.pyg)...executed.
+
  ) 
 Here is how much of TeX's memory you used:
- 17219 strings out of 478268
- 291714 string characters out of 5846347
- 641591 words of memory out of 5000000
- 35196 multiletter control sequences out of 15000+600000
- 480783 words of font info for 49 fonts, out of 8000000 for 9000
+ 17503 strings out of 478268
+ 298887 string characters out of 5846347
+ 647547 words of memory out of 5000000
+ 35421 multiletter control sequences out of 15000+600000
+ 482481 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,81p,361b,443s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc2074.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on partie-web.pdf (5 pages, 111372 bytes).
+ 75i,11n,81p,515b,664s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc2074.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb>
+Output written on partie-web.pdf (8 pages, 540084 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
- 9 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 197 PDF objects out of 1000 (max. 8388607)
+ 152 compressed objects within 2 object streams
+ 30 named destinations out of 1000 (max. 500000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 

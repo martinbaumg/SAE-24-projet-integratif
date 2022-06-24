@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{index}\PYG{p}{(}\PYG{n}{request}\PYG{p}{):}
+    \PYG{n}{sensors} \PYG{o}{=} \PYG{n}{Sensors}\PYG{o}{.}\PYG{n}{objects}\PYG{o}{.}\PYG{n}{all}\PYG{p}{()}
+    \PYG{n}{sensorsdata} \PYG{o}{=} \PYG{n}{SensorsData}\PYG{o}{.}\PYG{n}{objects}\PYG{o}{.}\PYG{n}{all}\PYG{p}{()}
+    \PYG{k}{return} \PYG{n}{render}\PYG{p}{(}\PYG{n}{request}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}index.html\PYGZsq{}}\PYG{p}{,} \PYG{p}{\PYGZob{}}\PYG{l+s+s1}{\PYGZsq{}sensors\PYGZsq{}}\PYG{p}{:} \PYG{n}{sensors}\PYG{p}{\PYGZcb{})}
+\end{Verbatim}
