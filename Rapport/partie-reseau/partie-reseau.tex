@@ -81,9 +81,6 @@
 \end{titlepage}
 \newpage
 \tableofcontents
-\newpage
-\listoflistings
-\newpage
 \listoffigures
 \newpage
 
@@ -174,19 +171,87 @@ Voici un schéma résumant le réseau que nous allons créer :
 		\end{figure}
 
 		\subsection{Vérification du réseau}
+		Pour vérifier que notre réseau fonctionne nous avons donc fait des tests de ping 
+		entre les machines et les passerelles, par exemple, voici un ping de la passerelle
+		du VLAN 20 :
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.9\textwidth]{../screens/routeur/pingpasserelle.png}
+			\caption{Ping de la passerelle VLAN20}
+			\label{fig:pingp}
+		\end{figure}
 
 	\section{Configuration du NAT}
 
+	Pour configurer le NAT, il faut donc rajouter cette ligne dans la configuration du routeur
+	sur l'interface GigabitEthernet0/1 :
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth]{../screens/routeur/nat.png}
+		\caption{NAT inside}
+		\label{fig:nat}
+	\end{figure}
+	
+	Puis, en sortie du réseau de l'UHA nous rajoutons cette ligne qui signifie que la sortie 
+	de cette interface c'est le réseau de l'UHA :
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\textwidth]{../screens/routeur/IP-nat-outside.png}
+		\caption{NAT outside}
+		\label{fig:recup}
+	\end{figure}
+
 	\section{Mise en place des ACL}
+
+	Par la suite, nous avons du mettre en place des Access-Lists pour que nos machines puissent
+	faire certaines choses et d'autres non. Par exemple, un ACL visait à faire en sorte que PC
+	ne puisse pas pinger le serveur FTP que nous allons créer par la suite.  Ou encore, 
+	bloquer une page internet choisi au hasard. Voici au total toutes les ACL mises en place :
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth]{../screens/routeur/access-list.png}
+		\caption{Les access-lists}
+		\label{fig:acl}
+	\end{figure}
+
+	Par exemple, nous avons décidé de bloquer le site web \texttt{materiel.net}, nous 
+	constatons effectivement que le site est injoinable :
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.8\textwidth]{../screens/routeur/materiel.png}
+		\caption{materiel.net injoinable}
+		\label{fig:materiel}
+	\end{figure}
 
 	\section{Mise en place des services demandés}
 
 		\subsection{Création du serveur FTP}
+		Pour la création du serveur FTP, nous avons utilisé une machine virtuelle Windows
+		serveur. Par la suite, c'est assez intuitif de trouver comment faire pour en créer un. 
+		Il suffit d'installer le paquet pré-requis et de configurer les quelques champs qu'il y a 
+		a renseigner. 
 
-		\subsection{Création du serveur WEB}
-	
+		\subsection{Création du serveur WEB et du DNS}
+
+		Pour le serveur web, nous avons également utilisé une machine sous Windows serveur. 
+		Il a fallû correctement paramétrer le service pour que nous puissions avoir une 
+		serveur Web fonctionel. Comme nous pouvons le constater, nous avons également mis en place
+		le DNS, nous pouvons donc nous connecter au serveur avec le DNS donc : 
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.8\textwidth]{../screens/routeur/web.png}
+			\caption{Connexion au serveur Web}
+			\label{fig:web}
+		\end{figure}
+	\newpage
 	\section{Vérification des services}
-
+	En fin de compte, nous pouvons vérifier tous les services demandés sont fonctionnels, à savoir
+	les différentes ACL mises en place, le respect des consignes des VLANS, que nous étions 
+	obligés de respecter. Car sans le respect des VLANs, nous n'aurions pas pu déployer les 
+	services demandés. Et même, nous n'aurions pas pu faire la suite de la SAE, car comme nous
+	le verrons par la suite, les futures parties que nous allons installer vont dépendre des
+	différents VLANs que nous avons crées. 
 
 
 \end{document}

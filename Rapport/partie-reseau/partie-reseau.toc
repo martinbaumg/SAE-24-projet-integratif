@@ -1,12 +1,12 @@
 \babel@toc {french}{}\relax 
-\contentsline {section}{\numberline {1}Introduction}{4}{section.1}%
-\contentsline {section}{\numberline {2}Création des réseaux}{5}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Configuration des VLANs}{5}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Routage Inter-VLAN}{6}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Vérification du réseau}{7}{subsection.2.3}%
-\contentsline {section}{\numberline {3}Configuration du NAT}{7}{section.3}%
-\contentsline {section}{\numberline {4}Mise en place des ACL}{7}{section.4}%
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
+\contentsline {section}{\numberline {2}Création des réseaux}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Configuration des VLANs}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Routage Inter-VLAN}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Vérification du réseau}{5}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Configuration du NAT}{5}{section.3}%
+\contentsline {section}{\numberline {4}Mise en place des ACL}{6}{section.4}%
 \contentsline {section}{\numberline {5}Mise en place des services demandés}{7}{section.5}%
 \contentsline {subsection}{\numberline {5.1}Création du serveur FTP}{7}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Création du serveur WEB}{7}{subsection.5.2}%
-\contentsline {section}{\numberline {6}Vérification des services}{7}{section.6}%
+\contentsline {subsection}{\numberline {5.2}Création du serveur WEB et du DNS}{7}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Vérification des services}{8}{section.6}%

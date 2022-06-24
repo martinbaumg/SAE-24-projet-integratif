@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.15)  22 JUN 2022 13:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.15)  24 JUN 2022 19:19
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -529,83 +529,116 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@toc=\write6
 \openout6 = `partie-reseau.toc'.
 
+ (./partie-reseau.lof)
+\tf@lof=\write7
+\openout7 = `partie-reseau.lof'.
+
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.84 \newpage
-              [1] (./partie-reseau.lol)
-\tf@lol=\write7
-\openout7 = `partie-reseau.lol'.
-
- [2] (./partie-reseau.lof)
-\tf@lof=\write8
-\openout8 = `partie-reseau.lof'.
-
- [3]
-Underfull \hbox (badness 10000) in paragraph at lines 91--103
+l.85 \newpage
+              [1]
+Underfull \hbox (badness 10000) in paragraph at lines 88--100
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--106
+Underfull \hbox (badness 10000) in paragraph at lines 101--103
 
  []
 
-<../img/topologie.png, id=97, 677.53125pt x 677.53125pt>
+<../img/topologie.png, id=100, 677.53125pt x 677.53125pt>
 File: ../img/topologie.png Graphic file (type png)
 <use ../img/topologie.png>
-Package pdftex.def Info: ../img/topologie.png  used on input line 114.
+Package pdftex.def Info: ../img/topologie.png  used on input line 111.
 (pdftex.def)             Requested size: 209.12683pt x 209.12274pt.
-[4 <../img/topologie.png>]
-<../screens/SW/Interface-VLAN10.png, id=105, 145.29282pt x 36.88782pt>
+[2 <../img/topologie.png>]
+<../screens/SW/Interface-VLAN10.png, id=108, 145.29282pt x 36.88782pt>
 File: ../screens/SW/Interface-VLAN10.png Graphic file (type png)
 <use ../screens/SW/Interface-VLAN10.png>
-Package pdftex.def Info: ../screens/SW/Interface-VLAN10.png  used on input line 140.
+Package pdftex.def Info: ../screens/SW/Interface-VLAN10.png  used on input line 137.
 (pdftex.def)             Requested size: 145.29245pt x 36.88771pt.
-<../screens/SW/Interface-VLAN20.png, id=106, 145.29282pt x 37.64063pt>
+<../screens/SW/Interface-VLAN20.png, id=109, 145.29282pt x 37.64063pt>
 File: ../screens/SW/Interface-VLAN20.png Graphic file (type png)
 <use ../screens/SW/Interface-VLAN20.png>
-Package pdftex.def Info: ../screens/SW/Interface-VLAN20.png  used on input line 146.
+Package pdftex.def Info: ../screens/SW/Interface-VLAN20.png  used on input line 143.
 (pdftex.def)             Requested size: 145.29245pt x 37.64052pt.
-<../screens/SW/Interface-VLAN30.png, id=107, 146.04562pt x 36.135pt>
+<../screens/SW/Interface-VLAN30.png, id=110, 146.04562pt x 36.135pt>
 File: ../screens/SW/Interface-VLAN30.png Graphic file (type png)
 <use ../screens/SW/Interface-VLAN30.png>
-Package pdftex.def Info: ../screens/SW/Interface-VLAN30.png  used on input line 154.
+Package pdftex.def Info: ../screens/SW/Interface-VLAN30.png  used on input line 151.
 (pdftex.def)             Requested size: 146.04524pt x 36.13489pt.
-<../screens/SW/Interface-VLAN40.png, id=108, 143.78719pt x 36.135pt>
+<../screens/SW/Interface-VLAN40.png, id=111, 143.78719pt x 36.135pt>
 File: ../screens/SW/Interface-VLAN40.png Graphic file (type png)
 <use ../screens/SW/Interface-VLAN40.png>
-Package pdftex.def Info: ../screens/SW/Interface-VLAN40.png  used on input line 160.
+Package pdftex.def Info: ../screens/SW/Interface-VLAN40.png  used on input line 157.
 (pdftex.def)             Requested size: 143.78683pt x 36.13489pt.
- [5 <../screens/SW/Interface-VLAN10.png> <../screens/SW/Interface-VLAN20.png> <../screens/SW/Interface-VLAN30.png> <../screens/SW/Interface-VLAN40.png>]
-<../screens/routeur/interface.png, id=118, 219.06844pt x 352.31625pt>
+ [3 <../screens/SW/Interface-VLAN10.png> <../screens/SW/Interface-VLAN20.png> <../screens/SW/Interface-VLAN30.png> <../screens/SW/Interface-VLAN40.png>]
+<../screens/routeur/interface.png, id=121, 219.06844pt x 352.31625pt>
 File: ../screens/routeur/interface.png Graphic file (type png)
 <use ../screens/routeur/interface.png>
-Package pdftex.def Info: ../screens/routeur/interface.png  used on input line 171.
+Package pdftex.def Info: ../screens/routeur/interface.png  used on input line 168.
 (pdftex.def)             Requested size: 292.77629pt x 470.86485pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--174
+Underfull \hbox (badness 10000) in paragraph at lines 164--171
 
  []
 
-[6 <../screens/routeur/interface.png>] [7] (./partie-reseau.aux)
+<../screens/routeur/pingpasserelle.png, id=122, 427.5975pt x 154.32657pt>
+File: ../screens/routeur/pingpasserelle.png Graphic file (type png)
+<use ../screens/routeur/pingpasserelle.png>
+Package pdftex.def Info: ../screens/routeur/pingpasserelle.png  used on input line 179.
+(pdftex.def)             Requested size: 376.42575pt x 135.85722pt.
+[4 <../screens/routeur/interface.png>]
+<../screens/routeur/nat.png, id=128, 342.5297pt x 12.7978pt>
+File: ../screens/routeur/nat.png Graphic file (type png)
+<use ../screens/routeur/nat.png>
+Package pdftex.def Info: ../screens/routeur/nat.png  used on input line 190.
+(pdftex.def)             Requested size: 418.25368pt x 15.62831pt.
+<../screens/routeur/IP-nat-outside.png, id=129, 155.07938pt x 59.47218pt>
+File: ../screens/routeur/IP-nat-outside.png Graphic file (type png)
+<use ../screens/routeur/IP-nat-outside.png>
+Package pdftex.def Info: ../screens/routeur/IP-nat-outside.png  used on input line 200.
+(pdftex.def)             Requested size: 292.77629pt x 112.28957pt.
+<../screens/routeur/access-list.png, id=130, 422.32782pt x 125.71968pt>
+File: ../screens/routeur/access-list.png Graphic file (type png)
+<use ../screens/routeur/access-list.png>
+Package pdftex.def Info: ../screens/routeur/access-list.png  used on input line 213.
+(pdftex.def)             Requested size: 418.25368pt x 124.5108pt.
+ [5 <../screens/routeur/pingpasserelle.png> <../screens/routeur/nat.png> <../screens/routeur/IP-nat-outside.png>]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 218.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+<../screens/routeur/materiel.png, id=138, 1264.725pt x 758.08218pt>
+File: ../screens/routeur/materiel.png Graphic file (type png)
+<use ../screens/routeur/materiel.png>
+Package pdftex.def Info: ../screens/routeur/materiel.png  used on input line 222.
+(pdftex.def)             Requested size: 334.60422pt x 200.55536pt.
+ [6 <../screens/routeur/access-list.png> <../screens/routeur/materiel.png>]
+<../screens/routeur/web.png, id=147, 1264.725pt x 754.31813pt>
+File: ../screens/routeur/web.png Graphic file (type png)
+<use ../screens/routeur/web.png>
+Package pdftex.def Info: ../screens/routeur/web.png  used on input line 243.
+(pdftex.def)             Requested size: 334.60422pt x 199.55956pt.
+ [7 <../screens/routeur/web.png>] [8] (./partie-reseau.aux)
 Package rerunfilecheck Info: File `partie-reseau.out' has not changed.
-(rerunfilecheck)             Checksum: A6E37C33D3A793381E7C6D404C7E55ED;1857.
+(rerunfilecheck)             Checksum: A575C2CC25DE8057C266E60CC21B7FA0;1916.
  ) 
 Here is how much of TeX's memory you used:
- 17305 strings out of 478268
- 293833 string characters out of 5846347
- 643750 words of memory out of 5000000
- 35254 multiletter control sequences out of 15000+600000
- 481558 words of font info for 50 fonts, out of 8000000 for 9000
+ 17373 strings out of 478268
+ 295939 string characters out of 5846347
+ 648054 words of memory out of 5000000
+ 35309 multiletter control sequences out of 15000+600000
+ 481871 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,81p,367b,443s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc2074.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on partie-reseau.pdf (8 pages, 225751 bytes).
+ 75i,11n,81p,369b,443s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc2074.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on partie-reseau.pdf (9 pages, 395291 bytes).
 PDF statistics:
- 186 PDF objects out of 1000 (max. 8388607)
- 140 compressed objects within 2 object streams
- 26 named destinations out of 1000 (max. 500000)
- 119 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 219 PDF objects out of 1000 (max. 8388607)
+ 158 compressed objects within 2 object streams
+ 32 named destinations out of 1000 (max. 500000)
+ 149 words of extra memory for PDF output out of 10000 (max. 10000000)
 
