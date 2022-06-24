@@ -81,9 +81,7 @@
 \end{titlepage}
 \newpage
 \tableofcontents
-\newpage
 \listoflistings
-\newpage
 \listoffigures
 
 
@@ -96,14 +94,14 @@ MQTT, pour "Message Queuing Telemetry Transport", est un protocole
 open source de messagerie qui assure des communications non permanentes
 entre des appareils par le transport de leurs messages.\\
 Le but de cette partie étant de récupérer des données. Nous devons réceptionner
-des valeures de température sur une pièce. Nous devons être capable de
+des valeures de température sur une pièce. Puis être capable de
 les afficher selon les critères définit, et les intégrer dans une base de
 données qui nous servira plus tard pour la partie Web. 
 	\section{Récupération de données}
 		\subsection{Configuration du script}
 		Pour pouvoir récupérer les données depuis le MQTT, j'ai donc dû
-		adapter le script python que nous a été donné dans le diaporama
-		et j'ai du l'adapter pour qu'il récupère les bonnes données.\\ 
+		adapter le script python qui nous a été donné dans le diaporama
+		et j'ai dû l'adapter pour qu'il récupère les bonnes données.\\ 
 		J'ai modifié les lignes suivantes, en y ajoutant les bonnes valeurs
 		de connexion :
 		\begin{listing}[H]
@@ -114,7 +112,7 @@ données qui nous servira plus tard pour la partie Web.
 		topic = "IUT/Colmar/SAE24/Maison1"
 			\end{minted}
 		\end{listing}
-		Par la suite j'ai du installer un paquet qui était prérequis 
+		Par la suite j'ai dû installer un paquet qui était prérequis 
 		pour que le script puisse s'éxecuter correctement à savoir :
 		\begin{listing}[H]
 			\caption{Installation des paquets nécessaire au script MQTT}
@@ -133,14 +131,12 @@ données qui nous servira plus tard pour la partie Web.
 			\caption{Récupération des données}
 			\label{fig:recup}
 		\end{figure}
-		Le problème est qu'il nous était demandé de récupérer un ID différent
-		à chaque fois qu'une valeur de température est reçue.
 
 	\section{Sauvegarde des valeurs dans la base de données}
 		\subsection{Explications}
-		L'objectif finale de cet exerice d'ensuite pouvoir sauvegarder les données dans une 
+		L'objectif finale de cet exercice est d'ensuite pouvoir sauvegarder les données dans une 
 		base de données pour ensuite permettre l'affichage de ces données dans une page web.
-		Pour ce faire, j'ai donc du ércrire un script qui permet premièrement la réception
+		Pour ce faire, j'ai donc du écrire un script qui permet premièrement la réception
 		des données MQTT, puis qui les stock dans une base de données.
 
 
@@ -199,7 +195,54 @@ données qui nous servira plus tard pour la partie Web.
 	""")
 			\end{minted}
 		\end{listing}
+		\newpage 
+		\section{Vérification de la récupération des données}
+		Pour finir, on défini donc de récupérer les valeurs avec une boucle infini. 
+		Nous pouvons donc vérifier que les données sont bien reçues. Et en effet, toutes les
+		les données récupérés depuis le brocker sont bien enregistré dans la base de données SQL
+		Nous pouvons vérifier cela avec la logiciel DATAGRIP, en nous connectons à la
+		base de données : 
 
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.7\textwidth]{../img/tablesgrip.png}
+			\caption{Récupération des tables sur DataGrip}
+			\label{fig:table}
+		\end{figure}
 
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.7\textwidth]{../img/capteursgrip.png}
+			\caption{Les capteurs sur DataGrip}
+			\label{fig:cgrip}
+		\end{figure}
+
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.7\textwidth]{../img/capteursmysql.png}
+			\caption{Les capteurs sur MySQL}
+			\label{fig:csql}
+		\end{figure}
+
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.7\textwidth]{../img/datagrip.png}
+			\caption{Les valeurs sur DataGrip}
+			\label{fig:vgrip}
+		\end{figure}
+
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.7\textwidth]{../img/datamysql.png}
+			\caption{Les valeurs sur MySQL}
+			\label{fig:vsql}
+		\end{figure}
+
+		Nous récupérons donc comme voulu toutes les valeurs que nous souhaitions récupérer. 
+		Toutes les valeurs sont stockées dans la base de données MySQL et permettront dans la 
+		dernière partie de pouvoir afficher sur une page Web développée en DJANGO les valeurs
+		de températures. 
+		
+		
 
 \end{document}
